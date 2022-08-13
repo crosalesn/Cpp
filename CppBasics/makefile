@@ -1,5 +1,5 @@
 #objects specifies which files to compile as part of the project
-objects = 1 2 3
+objects = 1 2 3 4 5 6
 
 #CC specifies which compiler we're using
 CC = g++
