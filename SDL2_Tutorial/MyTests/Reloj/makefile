@@ -1,5 +1,5 @@
 #OBJS specifies which files to compile as part of the project
-OBJS = test101.cpp
+OBJS = reloj.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -9,7 +9,7 @@ CC = g++
 COMPILER_FLAGS = -w
 
 #LINKER_FLAGS specifies the libraries we're linking against
-LINKER_FLAGS = -lSDL2 -I /usr/include/SDL2
+LINKER_FLAGS = -lSDL2 -lSDL2_ttf -I /usr/include/SDL2
 
 #OBJ_NAME specifies the name of our exectuable
 OBJ_NAME = $(OBJS).out
